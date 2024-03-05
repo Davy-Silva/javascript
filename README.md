@@ -1,2 +1,3 @@
 # javascript
- Exercícios Do Curso De JavaScript Do Cursoemvideo.
+ **Exercícios** Do Curso De **JavaScript** Do **Cursoemvideo**.
+ - [ ] Completo
