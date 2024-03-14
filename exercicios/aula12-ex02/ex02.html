@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style02.css" media="all">
+    <script src="script02.js"></script>
+    <title>Exercício De JavaScript</title>
+</head>
+<body onload="carregar()">
+    
+    <header>
+        <h1>Verificador De Idade</h1>
+    </header>
+
+    <main>
+        <section>
+            <div>
+                <form action="">
+                    <fieldset>
+                        <legend>dados</legend>
+                        <p>
+                            <label for="iano">Ano de Nascimento:</label>
+                            <input type="text" name="ano" id="iano" required>
+                        </p>
+                        <p>
+                            <label for="isexo">Sexo:</label>
+                            <input type="radio" name="radsex" id="imas">
+                            <label for="imas">masculino</label>
+                            <input type="radio" name="radsex" id="ifem">
+                            <label for="ifem">feminino</label>
+                        
+                        </p>
+                        <p>
+                            <input type="button" value="Verificar" onclick="verificar()">
+                        </p>
+                    </fieldset>
+                </form>
+            </div>
+            <div id="res">
+                <p>Preencha os dados para ver o resultado!</p>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; CursoemVideo</p>
+    </footer>
+    
+</body>
+</html>
