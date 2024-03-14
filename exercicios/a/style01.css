@@ -29,8 +29,11 @@ main
     margin: auto;
     padding: 15px;
     text-align: center;
+
     border-radius: 5px;
     box-shadow: 5px 5px 8px rgba(0, 0, 0, 0.282);
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.507);
+    color: white;
     background-color: white;
     font: bold 16px arial;
 }
