@@ -39,7 +39,10 @@ p
 { padding: 10PX; }
 
 #res
-{ text-align: center; }
+{
+    text-align: center;
+    padding-top: 20px;
+}
 
 img
 {

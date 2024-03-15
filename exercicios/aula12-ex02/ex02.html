@@ -7,7 +7,7 @@
     <script src="script02.js"></script>
     <title>Exercício De JavaScript</title>
 </head>
-<body onload="carregar()">
+<body>
     
     <header>
         <h1>Verificador De Idade</h1>
@@ -15,10 +15,10 @@
 
     <main>
         <section>
-            <div>
-                <form action="">
+            <div>     
+                <form action="" autocomplete="off" method="get">
                     <fieldset>
-                        <legend>dados</legend>
+                        <legend>Dados</legend>
                         <p>
                             <label for="iano">Ano de Nascimento:</label>
                             <input type="text" name="ano" id="iano" required>
@@ -32,7 +32,7 @@
                         
                         </p>
                         <p>
-                            <input type="button" value="Verificar" onclick="verificar()">
+                            <input type="button" value="Verificar "onclick="verificar()">
                         </p>
                     </fieldset>
                 </form>
