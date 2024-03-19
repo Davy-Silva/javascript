@@ -1,0 +1,21 @@
+@charset "UTF-8";
+
+body
+{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: blue;
+    color: white;
+    text-align: center;
+}
+
+main
+{
+    color: black;
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.456);
+    width: 600px;
+    margin: auto;
+    text-align: left;
+}
