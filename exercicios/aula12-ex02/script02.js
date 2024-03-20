@@ -15,7 +15,7 @@ function verificar()
         img.setAttribute('id', 'foto')
 
         res.innerHTML = `Detectamos ${gênero} com ${idade} anos`
-        res. appendChild(img)
+        res.appendChild(img)
 
         if(fsex[0].checked)
         {

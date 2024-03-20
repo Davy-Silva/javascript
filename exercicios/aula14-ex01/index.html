@@ -13,21 +13,31 @@
     </header>
 
     <main>
-        <form action="">
-            <p>
-                <label for="id-inicio">Início:</label>
-                <input type="number" name="inicio" id="id-inicio">
-                <br>
-                <label for="id-fim">Fim:</label>
-                <input type="number" name="fim" id="id-fim" required >
-                <br>
-                <label for="id-passo">Passo:</label>
-                <input type="number" name="passo" id="id-passo" required>
-            </p>
-            <p>
-                <input type="button" value="Contar">
-            </p>
+        <form action="" id="dados">
+            <fieldset>
+                <legend>Números</legend>
+                <p>
+                    <label for="id-inicio">Início:</label>
+                    <input type="number" name="inicio" id="id-inicio">
+                 </p>
+                <p>
+                    <label for="id-fim">Fim:</label>
+                    <input type="number" name="fim" id="id-fim" required >
+                </p>
+                
+                <p>
+                    <label for="id-passo">Passo:</label>
+                    <input type="number" name="passo" id="id-passo" required>
+                </p>
+                <p>
+                    <input type="button" value="Contar" onclick="contar()">
+                </p>
+            </fieldset>
         </form>
+        
+        <div id="res">
+            <p>Preparando a contagem...</p>
+        </div>
     </main>
     
     <footer>
