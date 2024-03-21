@@ -1,0 +1,62 @@
+@charset "UTF-8";
+
+body
+{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: blue;
+    color: rgb(255, 255, 255);
+    text-align: center;
+}
+
+main
+{
+    color: black;
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.456);
+    max-width: 600px;
+    margin: auto;
+    text-align: left;
+
+    display: flex;
+}
+
+form
+{
+   width: 50%;
+   text-align: center;
+}
+
+#button
+{
+    width: 140px;
+    padding: 5px;
+
+    color: white;
+    background-color: blue;
+    border-style: none;
+    border-radius: 3px;
+    box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.386);
+
+    font-weight: bold;
+}
+#button:hover
+{   background-color: rgb(4, 4, 179); }
+
+table
+{
+    text-align: center;
+    margin: auto;
+    width: 50%;
+    border-collapse: collapse;
+    font-weight: bold;
+}
+td
+{
+    border: 1px solid black;
+    padding: 2px;
+}
+
+header, footer
+{   text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.47); }
