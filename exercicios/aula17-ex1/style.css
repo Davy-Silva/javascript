@@ -28,7 +28,7 @@ form
    text-align: center;
 }
 
-#button
+#num
 {
     width: 140px;
     padding: 5px;
@@ -41,7 +41,7 @@ form
 
     font-weight: bold;
 }
-#button:hover
+#num:hover
 {   background-color: rgb(4, 4, 179); }
 
 table

@@ -1,8 +1,7 @@
 var valores = []
-var numeros = document.querySelector('input#button')
-var tabela = document.querySelector('table#numeros')
+var num = document.querySelector('input#num')
+var lista = document.querySelector('table#lista')
 var res = document.querySelector('div#valores')
-var num = Number(numeros.value)
 
 function isNumero(n)
 {
@@ -22,17 +21,17 @@ function inLista(n, l)
 
 function adicionar()
 {
-    if(isNumero(num) && !inLista(num, valores))
+    if(isNumero(num.value) && !inLista(num.value, valores))
     {
-        valores.push(Number(num.valores))
+        valores.push(Number(num.value))
         var linha = document.createElement('tr')
         let item = document.createElement('td')
-        item.textContent = `${numberNum} X ${c} = ${numberNum*c}`
+        item.textContent = `Valor ${valores} adicionado`
         tabuada.appendChild(linha)
         linha.appendChild(item)
     }
     else
-    {   alert('Valor inválido ou já encontrado na lista.')}
+    {   alert('Valor inválido ou já encontrado na lista.') }
 }
 
 
