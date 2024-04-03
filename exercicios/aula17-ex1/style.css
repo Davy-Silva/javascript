@@ -22,13 +22,17 @@ main
     display: flex;
 }
 
-form
+div
 {
-   width: 50%;
-   text-align: center;
+    font-weight: bold
 }
 
-#button
+#fnum
+{
+    margin: 10px 0px 20px 0px;
+}
+
+#finalizar, #adicionar
 {
     width: 140px;
     padding: 5px;
@@ -41,21 +45,21 @@ form
 
     font-weight: bold;
 }
-#button:hover
+#finalizar:hover, #adicionar:hover
 {   background-color: rgb(4, 4, 179); }
 
-table
+select
+{
+    text-align: center;
+    margin: 20px 0px 20px 0px;
+    width: 140px;
+    border-collapse: collapse;
+}
+
+#res
 {
     text-align: center;
     margin: auto;
-    width: 50%;
-    border-collapse: collapse;
-    font-weight: bold;
-}
-td
-{
-    border: 1px solid black;
-    padding: 2px;
 }
 
 header, footer
